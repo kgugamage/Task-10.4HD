@@ -75,11 +75,10 @@ footer { padding: 1.5rem 0; }
   margin: 0;
 }
 
-/* ---------- DARK MODE ---------- */
 .dark-mode {
   --cream: #1a1a1a;
   --text-color: #f0f0f0;
-  --forest-green: #1f3f2b; /* darker forest tone for dark mode */
+  --forest-green: #1f3f2b; 
   --light-pink: #a86d86;
   background: var(--cream);
   color: var(--text-color);
@@ -111,7 +110,6 @@ footer { padding: 1.5rem 0; }
   color: #fff;
 }
 
-/* ---------- Shared Components ---------- */
 .form-card {
   background: #fff;
   border-radius: 12px;
@@ -136,5 +134,12 @@ footer { padding: 1.5rem 0; }
 .dark-mode .btn.btn-olive:hover {
   filter: brightness(1.1);
 }
+.dark-mode .bg-light {
+  background-color: #333 !important;
+  color: #f0f0f0 !important;
+}
+
+
+
 </style>
 

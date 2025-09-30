@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.1",
+    "rollup": "^4.52.3",
     "vite": "^7.1.7"
   },
   "dependencies": {
